@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1.900 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900 & display=swap');
+body {
+    background: #535353;
+}
+
+.bg-navbar {
+    background: #242424;
+}
+
+.aa {
+    width: 8px;
+    height: 45px;
+    background-color: #2a4bdf;
+}
+
+.nav-title {
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-2 {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-nav {
+    border: solid 2px transparent;
+    transition: all 0.2s;
+}
+
+.btn-nav:hover {
+    border-bottom: solid 2px #2a4bdf;
+}
+
+.drop-nav {
+    border: solid 2px transparent;
+}
+
+.drop-nav:hover {
+    border-bottom: solid 1px #2a4bdf;
+}
+
+.drop-nav:focus {
+    border-bottom: solid 2px #2a4bdf;
+}
+
+.bg-drop {
+    background: #242424;
+}
+
+.drop {
+    color: #fff;
+    font-family: 'Roboto';
+    transition: all 0.2s;
+    border-radius: 2px;
+    border: solid 2px transparent;
+}
+
+.drop:hover {
+    background: #242424;
+    color: #fff;
+    border-bottom: solid 2px #2a4bdf;
+}
+
+.title {
+    color: #1739cf;
+}
+
+.btn-busca {
+    background: transparent;
+    border: solid 1px #1739cf;
+    color: #1739cf;
+    border-radius: px;
+    transition: all 0.2s;
+}
+
+.btn-busca:hover {
+    background: #1739cf;
+    border: solid 1px #1739cf;
+    color: white;
+}
+
+fieldset {
+    border: 3px solid #2a4bdf;
+    border-radius: 5px;
+}
+
+.film-title {
+    color: white;
+    font-size: 5vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hr-color {
+    background: white;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.capa {
+    border: none;
+    height: 100%;
+    min-height: 25rem;
+    max-height: 30rem;
+    min-width: 18rem;
+    max-width: 18rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.borda {
+    border: none;
+    background: transparent;
+}
+
+.img-capa {
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #000000;
+}
+
+.info {
+    color: red;
+    font-family: 'Roboto';
+}
+
+.infos {
+    color: white;
+    font-family: 'Roboto';
+}
+
+.btn-filme {
+    background: #2a4bdf;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.btn-filme:hover {
+    background: #122888;
+    color: white;
+}
+
+.sinopse {
+    font-size: 2.5vh;
+}
+
+.trailer {
+    background: #ffff;
+    border-radius: 15px;
+    padding: 15px 15px;
+    box-shadow: 0px 0px 15px #000000;
+}
+
+.hr-opções {
+    color: #ffff;
+    border: solid 1px #ffff;
+}
+
+.qualidade {
+    font-size: 3.5vh;
+}
+
+.btn-baixar {
+    font-size: 3vh;
+    background: transparent;
+    border: solid 4px #2a4bdf;
+    color: white;
+    border-radius: 2px;
+    transition: all 0.2s;
+    padding: 10px 50px;
+}
+
+.btn-baixar:hover {
+    border: solid 6px transparent;
+    background: #2a4bdf;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.footer {
+    background: #242424;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.links:hover {
+    color: rgb(143, 143, 143);
+    text-decoration: none;
+}
+
+.seta {
+    color: #2a4bdf;
+}
